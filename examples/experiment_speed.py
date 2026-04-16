@@ -104,11 +104,11 @@ def run():
 
     # Step 4: Apply speed modulation (what the LLM tool call does)
     # SlowDownRobot scales dt by factor (|gamma|+100)/100 = 1.5 for gamma=50
-    print(f"\nTool call: SlowDownRobot(slow_down_value=50, adaption_start={t_box:.2f}, adaption_end={t_station:.2f})")
+    print(f"\nTool call: SlowDownRobot(slow_down_value=50, adaptation_start={t_box:.2f}, adaptation_end={t_station:.2f})")
     tool = SlowDownRobot(
         slow_down_value=50,
-        adaption_start=round(t_box, 2),
-        adaption_end=round(t_station, 2),
+        adaptation_start=round(t_box, 2),
+        adaptation_end=round(t_station, 2),
     )
     result = tool.execute(model)
     print(f"Result: {result}")

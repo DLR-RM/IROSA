@@ -38,7 +38,7 @@ class AddViaPointsAtTime(Tool):
     """If you want to add several via-points at specific times, use this function.
     Add multiple via-points at specific times with specific positions.
     :param input_values: List of floats representing the times of the viapoints
-    :param output_values: List of lists of floats representing the positions of the viapoint
+    :param output_values: List of lists of floats representing the positions of the viapoints
     """
 
     input_values: list[float]

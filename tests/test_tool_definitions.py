@@ -46,8 +46,8 @@ def test_tool_schema_generation():
     schema = SpeedUpRobot.to_openai_tool()
     params = schema["function"]["parameters"]
     assert "speed_up_value" in params["properties"]
-    assert "adaption_start" in params["properties"]
-    assert "adaption_end" in params["properties"]
+    assert "adaptation_start" in params["properties"]
+    assert "adaptation_end" in params["properties"]
 
 
 def test_slow_down_schema():

@@ -71,7 +71,7 @@ User Command (natural language)
 
 | Tool | Paper Section | Purpose | Parameters |
 |------|--------------|---------|------------|
-| `SpeedUpRobot` / `SlowDownRobot` | IV-D, Eq. 3-4 | Temporal trajectory adjustment | speed_value, adaption_start, adaption_end |
+| `SpeedUpRobot` / `SlowDownRobot` | IV-D, Eq. 3-4 | Temporal trajectory adjustment | speed_value, adaptation_start, adaptation_end |
 | `AddViaPointsAtTime` | IV-D | Spatial trajectory correction via KMP via-points | input_values (times), output_values (positions) |
 | `AddRepulsionPoint` | IV-D, Eq. 5-6 | Obstacle avoidance via SDF-based correction | position, radius/dimensions |
 | `GetViaPoints` / `RemoveViaPoints*` | - | Via-point management | - |
@@ -203,7 +203,7 @@ model = KMPWrapper(demonstration_path="data/demonstrations.npz", force_retrain=T
 
 # Speed modulation: slow down between t=0.55 and t=0.72
 model.robot.change_predicting_frequency(
-    percentual_factor=50, adaption_start=0.55, adaption_end=0.72
+    percentage_factor=50, adaptation_start=0.55, adaptation_end=0.72
 )
 
 # Via-point insertion: add waypoint at camera position
