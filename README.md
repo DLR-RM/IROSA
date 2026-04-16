@@ -6,7 +6,7 @@
 
 <base target="_blank">
 
-Authors: [Markus Knauer](https://markusknauer.github.io/), Alin Albu-Schäffer, Freek Stulp, and João Silvério
+Authors: [Markus Knauer](https://markusknauer.github.io/), Samuel Bustamante Gomez, Thomas Eiband, Alin Albu-Schäffer, Freek Stulp, and João Silvério
 
 Responsible: Markus Knauer (markus.knauer@dlr.de)
 Research Scientist @ German Aerospace Center (DLR), Institute of Robotics and Mechatronics, Munich, Germany &
@@ -241,11 +241,15 @@ make test            # run tests
 If you use our ideas in a research project or publication, please cite as follows:
 
 ```bibtex
-@article{knauer2025irosa,
-  author={Knauer, Markus and Albu-Sch{\"a}ffer, Alin and Stulp, Freek and Silv{\'e}rio, Jo{\~a}o},
-  title={Interactive robot skill adaptation using natural language},
-  journal={arXiv preprint arXiv:2505.00861},
-  year={2025},
+@article{knauer2026irosa,
+  author={Knauer, Markus and Bustamante Gomez, Samuel and Eiband, Thomas and Albu-Sch{\"a}ffer, Alin and Stulp, Freek and Silv{\'e}rio, Jo{\~a}o},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  title={{IROSA}: Interactive Robot Skill Adaptation Using Natural Language},
+  year={2026},
+  volume={11},
+  number={4},
+  pages={5246-5253},
+  doi={10.1109/LRA.2026.3671560},
   keywords={LLM; Tool Use; Robot Learning; Movement Primitives; Natural Language},
 }
 ```

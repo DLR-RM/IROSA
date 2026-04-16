@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Interactive Robot Skill Adaptation using Natural Language"
+title: "IROSA: Interactive Robot Skill Adaptation Using Natural Language"
 message: "If you use this software, please cite the article below."
 type: software
 authors:
@@ -8,6 +8,12 @@ authors:
     email: markus.knauer@dlr.de
     affiliation: "German Aerospace Center (DLR), Institute of Robotics and Mechatronics"
     orcid: "https://orcid.org/0000-0001-5835-1498"
+  - family-names: Bustamante Gomez
+    given-names: Samuel
+    affiliation: "German Aerospace Center (DLR), Institute of Robotics and Mechatronics"
+  - family-names: Eiband
+    given-names: Thomas
+    affiliation: "German Aerospace Center (DLR), Institute of Robotics and Mechatronics"
   - family-names: Albu-Schäffer
     given-names: Alin
     affiliation: "German Aerospace Center (DLR), Institute of Robotics and Mechatronics"
@@ -28,15 +34,25 @@ keywords:
   - natural language
 preferred-citation:
   type: article
-  title: "Interactive robot skill adaptation using natural language"
+  title: "IROSA: Interactive Robot Skill Adaptation Using Natural Language"
   authors:
     - family-names: Knauer
       given-names: Markus
+    - family-names: Bustamante Gomez
+      given-names: Samuel
+    - family-names: Eiband
+      given-names: Thomas
     - family-names: Albu-Schäffer
       given-names: Alin
     - family-names: Stulp
       given-names: Freek
     - family-names: Silvério
       given-names: João
-  journal: "arXiv preprint arXiv:2505.00861"
-  year: 2025
+  journal: "IEEE Robotics and Automation Letters (RA-L)"
+  year: 2026
+  volume: 11
+  issue: 4
+  start: 5246
+  end: 5253
+  doi: "10.1109/LRA.2026.3671560"
+  issn: "2377-3766"
