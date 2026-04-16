@@ -2,6 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![CI](https://github.com/DLR-RM/IROSA/actions/workflows/ci.yml/badge.svg)](https://github.com/DLR-RM/IROSA/actions/workflows/ci.yml)
+
+<base target="_blank">
 
 Authors: [Markus Knauer](https://markusknauer.github.io/), Alin Albu-Schäffer, Freek Stulp, and João Silvério
 
@@ -13,7 +16,7 @@ This repository contains the open-source code for our paper on interactive robot
 
 If you are interested, you can find similar projects on [https://markusknauer.github.io](https://markusknauer.github.io/)
 
-[ArXiv paper](https://arxiv.org/abs/2505.00861)
+[IEEE paper](https://ieeexplore.ieee.org/document/11425760) | [ArXiv paper](https://arxiv.org/abs/2505.00861) | [ELIB paper](https://elib.dlr.de/223194/)
 
 
 ## Overview
