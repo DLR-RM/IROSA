@@ -25,7 +25,6 @@ kmp_saves/
 
 # Generated results
 results/*.svg
-results/*.png
 
 # OS
 .DS_Store
