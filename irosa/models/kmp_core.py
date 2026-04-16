@@ -188,7 +188,7 @@ class Kmp:
         if x_in.ndim == 1:
             x_in_2d = x_in.reshape(-1, self.nb_dim_in)
         else:
-            x_in_2d = x_in
+            x_in_2d = x_in  # type: ignore[assignment]
 
         mu, sigma, _ = gmm.gaussian_mixture_regression(x_in_2d, d_in, d_out, self.N)
 
@@ -268,7 +268,7 @@ class Kmp:
             via_out = np.array(output_via[i]).reshape(-1)
             precision = gamma * I_O
 
-            self.x_in = np.vstack([self.x_in, via_in])
+            self.x_in = np.vstack([self.x_in, via_in])  # type: ignore[assignment]
             self.mu_block = np.append(self.mu_block, via_out)
             self.sigma = np.append(self.sigma, precision.reshape(1, self.nb_dim_out, -1), axis=0)
             self.nb_via += 1
@@ -301,7 +301,7 @@ class Kmp:
 
             # Remove from model arrays (via-points are appended after original N points)
             array_idx = self.N + idx
-            self.x_in = np.delete(self.x_in, array_idx, axis=0)
+            self.x_in = np.delete(self.x_in, array_idx, axis=0)  # type: ignore[assignment]
             self.mu_block = np.delete(
                 self.mu_block.flatten(), range(array_idx * self.nb_dim_out, (array_idx + 1) * self.nb_dim_out)
             )

@@ -11,7 +11,6 @@
 
 """Test tool definitions."""
 
-
 from irosa.tool_definitions.general import NoToolIsAvailable, TellUserAMessage
 from irosa.tool_definitions.kmp import GetKMPParameters, GetViaPoints
 from irosa.tool_definitions.robot import SlowDownRobot, SpeedUpRobot

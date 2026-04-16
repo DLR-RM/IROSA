@@ -8,4 +8,3 @@
 # E-mail: markus.knauer@dlr.de                                                 #
 # Website: https://github.com/DLR-RM/IROSA                                    #
 ################################################################################
-

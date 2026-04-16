@@ -157,7 +157,7 @@ def plot_trajectory(
             # Downsample for readability
             if len(vp_times) > 50:
                 step = max(1, len(vp_times) // 50)
-                vp_times = vp_times[::step]
+                vp_times = vp_times[::step]  # type: ignore[assignment]
                 vp_outputs = vp_outputs[::step]
             if vp_outputs.shape[1] > i:
                 ax.scatter(
