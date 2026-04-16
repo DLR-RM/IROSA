@@ -269,5 +269,5 @@ If you use the KMP algorithm, please also cite:
 ---
 
 <div align="center">
-  <a href="https://www.dlr.de/EN/Home/home_node.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DLR_Logo.svg/220px-DLR_Logo.svg.png" hspace="3%" vspace="60px" width="150"></a>
+  <a href="https://www.dlr.de/EN/Home/home_node.html"><img src="images/logo.svg" hspace="3%" vspace="60px"></a>
 </div>
