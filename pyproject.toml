@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "irosa"
+version = "1.0.0"
+description = "IROSA: Interactive Robot Skill Adaptation using Natural Language. A tool-based architecture for LLM-driven robot skill customization."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Markus Knauer", email = "markus.knauer@dlr.de" }]
+keywords = ["robot learning", "LLM", "tool use", "movement primitives", "natural language"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "numpy>=1.20,<3.0",
+    "scipy>=1.0,<3.0",
+    "scikit-learn>=1.0,<3.0",
+    "openai>=1.0",
+    "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+sim = ["pybullet>=3.0"]
+tests = ["pytest", "pytest-cov", "mypy", "ruff>=0.9.0", "black>=25.1.0,<26"]
+
+[project.urls]
+Code = "https://github.com/DLR-RM/IROSA"
+ArXiv = "https://arxiv.org/abs/2505.00861"
+
+[tool.setuptools.packages.find]
+include = ["irosa*"]
+
+[tool.setuptools.package-data]
+irosa = ["py.typed"]
+
+[tool.ruff]
+line-length = 127
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 127
+
+[tool.isort]
+profile = "black"
+line_length = 127
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--tb=short -q"
