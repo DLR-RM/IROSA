@@ -16,7 +16,15 @@ This repository contains the open-source code for our paper on interactive robot
 
 If you are interested, you can find similar projects on [https://markusknauer.github.io](https://markusknauer.github.io/)
 
-[IEEE paper](https://ieeexplore.ieee.org/document/11425760) | [ArXiv paper](https://arxiv.org/abs/2505.00861) | [ELIB paper](https://elib.dlr.de/223194/)
+[IEEE paper](https://ieeexplore.ieee.org/document/11425760) | [ArXiv paper](https://arxiv.org/abs/2505.00861) | [ELIB paper](https://elib.dlr.de/223194/) | [YouTube](https://youtu.be/5qctQ9AiyxI)
+
+
+## Video (Link to YouTube)
+*Ctrl+Click to open links in a new tab*
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=5qctQ9AiyxI" target="_blank"><img src="images/IROSA_Thumbnail.jpg" hspace="3%" vspace="60px"></a>
+</div>
 
 
 ## Overview
